@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "ID": "grey_pill",
+  "Description": "Solo / Small crew ship that has many cheap and good upgrades",
+  "Hull": {
+    "Type": "/datum/map_template/shuttle/voidcrew/grey_pill",
+    "Name": "Grey Pill",
+    "Prefix": "_maps/voidcrew/ships/",
+    "Port": "ship",
+    "Suffix": "grey_pill",
+    "Slots": [
+      "bridge",
+      "special",
+      "engineering",
+      "special_2",
+      "docking_port_side"
+    ],
+    "Themes": [
+      {
+        "ID": "standard",
+        "Name": "Standard",
+        "Suffix": "grey_pill",
+        "Slots": [
+          "bridge",
+          "special",
+          "engineering",
+          "special_2",
+          "docking_port_side"
+        ],
+        "Default": true
+      }
+    ],
+    "Modules": [
+      {
+        "ID": "bridge_basic",
+        "Name": "Rock Bottom",
+        "Slot": "bridge",
+        "File": "grey_pill/rock_bottom.dmm",
+        "Description": "Bare minimum",
+        "Themes": [
+          "standard"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "special_basic",
+        "Name": "(Nothing) Special",
+        "Slot": "special",
+        "File": "grey_pill/nothing_special.dmm",
+        "Description": "its just a wall",
+        "Themes": [
+          "standard"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "basic_gear",
+        "Name": "Basic Gear",
+        "Slot": "bridge",
+        "File": "grey_pill/basic_gear.dmm",
+        "Description": "Chargers, 2 retro lasguns and minimal medical gear\n",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "orm_instead_of_wall",
+        "Name": "ORM",
+        "Slot": "special",
+        "File": "grey_pill/orm.dmm",
+        "Description": "Ore redemption machine in place of a wall",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "better_weapons",
+        "Name": "Better Weapons",
+        "Slot": "bridge",
+        "File": "grey_pill/better_weapons.dmm",
+        "Description": "Keeps basic medical supply, gets you 3 eguns and one stunbatong\n",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "better_medical_supply",
+        "Name": "Better medical supply",
+        "Slot": "bridge",
+        "File": "grey_pill/better_medical_supply.dmm",
+        "Description": "Surgery kit and all types of medkits that you can commonly find",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "premium",
+        "Name": "Premium",
+        "Slot": "bridge",
+        "File": "grey_pill/premium.dmm",
+        "Description": "All of upgrades with a bonuses!\n\nsuch as: better medbot,better pickaxe and a cargo console board!",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "silo",
+        "Name": "Silo",
+        "Slot": "special",
+        "File": "grey_pill/silo.dmm",
+        "Description": "Ehhh sure",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "engineering_basic",
+        "Name": "Baseline Engineering",
+        "Slot": "engineering",
+        "File": "grey_pill/baseline_engineering.dmm",
+        "Themes": [
+          "standard"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "teg",
+        "Name": "TEG",
+        "Slot": "engineering",
+        "File": "grey_pill/teg.dmm",
+        "Description": "Replaces everything with a TEG",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "special_2_basic",
+        "Name": "EVA suit holder",
+        "Slot": "special_2",
+        "File": "grey_pill/eva_suit_holder.dmm",
+        "Description": "Suit storage with EVA inside of it\n\nThats it",
+        "Themes": [
+          "standard"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "mining_closet",
+        "Name": "Mining closet",
+        "Slot": "special_2",
+        "File": "grey_pill/mining_closet.dmm",
+        "Description": "Replaces suit storage with full mining closet",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "mining_vendor",
+        "Name": "Mining Vendor",
+        "Slot": "special_2",
+        "File": "grey_pill/mining_vendor.dmm",
+        "Description": "Replaces EVA suit storage with a vendor\n\nWorks well with ORM upgrade",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "docking_port_side_basic",
+        "Name": "Left Docking Port",
+        "Slot": "docking_port_side",
+        "File": "grey_pill/left_docking_port.dmm",
+        "Description": "duh",
+        "Themes": [
+          "standard"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "right_docking_airlock",
+        "Name": "Right Docking Port",
+        "Slot": "docking_port_side",
+        "File": "grey_pill/right_docking_port.dmm",
+        "Themes": [
+          "standard"
+        ],
+        "Default": false
+      }
+    ]
+  },
+  "Crew": 4,
+  "Hidden": false,
+  "Cost": 0,
+  "PartCosts": {
+    "module/basic_gear": {
+      "combat": 1,
+      "science": 1
+    },
+    "module/better_medical_supply": {
+      "combat": 1,
+      "science": 2
+    },
+    "module/better_weapons": {
+      "combat": 2,
+      "science": 1
+    },
+    "module/mining_closet": {
+      "misc": 1
+    },
+    "module/mining_vendor": {
+      "trade": 2
+    },
+    "module/orm_instead_of_wall": {
+      "misc": 1
+    },
+    "module/premium": {
+      "combat": 2,
+      "science": 2,
+      "trade": 2
+    },
+    "module/right_docking_airlock": {},
+    "module/silo": {
+      "misc": 1
+    },
+    "module/teg": {
+      "misc": 4,
+      "trade": 2
+    },
+    "ship": {}
+  },
+  "PortDirection": 2
+}

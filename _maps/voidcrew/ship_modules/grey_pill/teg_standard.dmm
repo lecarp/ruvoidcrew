@@ -1,0 +1,167 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aLx" = (
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen/red,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/effect/spawner/random/structure/closet_empty,
+/obj/item/extinguisher,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/plating,
+/area/template_noop)
+"bCM" = (
+/obj/machinery/atmospherics/components/binary/volume_pump{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/template_noop)
+"cuJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/orange/visible{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"daR" = (
+/obj/machinery/atmospherics/components/binary/circulator{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
+"ewP" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 10
+	},
+/turf/template_noop,
+/area/template_noop)
+"hdw" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"jaG" = (
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
+	dir = 9
+	},
+/obj/machinery/light/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"jff" = (
+/obj/machinery/atmospherics/components/binary/volume_pump{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
+"lon" = (
+/turf/closed/wall/mineral/titanium,
+/area/template_noop)
+"mZm" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/template_noop)
+"oix" = (
+/obj/machinery/airalarm/directional/west,
+/turf/template_noop,
+/area/template_noop)
+"oTw" = (
+/obj/machinery/atmospherics/components/tank/plasma/less{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/tiled,
+/area/template_noop)
+"qeE" = (
+/obj/machinery/atmospherics/components/unary/thermomachine{
+	target_temperature = 573;
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"tMI" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 6
+	},
+/turf/template_noop,
+/area/template_noop)
+"uNs" = (
+/obj/machinery/atmospherics/components/unary/thermomachine{
+	target_temperature = 73;
+	dir = 8
+	},
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"uTm" = (
+/obj/machinery/power/thermoelectric_generator{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
+"uYO" = (
+/obj/machinery/atmospherics/components/binary/circulator/cold,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
+"vCA" = (
+/obj/machinery/autolathe/hacked,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"vPs" = (
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
+	dir = 5
+	},
+/obj/machinery/light/directional/west,
+/turf/template_noop,
+/area/template_noop)
+"xIS" = (
+/obj/machinery/atmospherics/components/tank/plasma/less{
+	dir = 4
+	},
+/obj/modular_map_connector,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+qeE
+lon
+lon
+aLx
+xIS
+"}
+(2,1,1) = {"
+cuJ
+vPs
+oix
+tMI
+mZm
+"}
+(3,1,1) = {"
+jff
+uYO
+uTm
+daR
+bCM
+"}
+(4,1,1) = {"
+cuJ
+jaG
+hdw
+ewP
+mZm
+"}
+(5,1,1) = {"
+oTw
+lon
+lon
+vCA
+uNs
+"}

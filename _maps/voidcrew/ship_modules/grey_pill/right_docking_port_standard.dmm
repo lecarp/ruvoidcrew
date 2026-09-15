@@ -1,0 +1,44 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"dvF" = (
+/obj/structure/fans/tiny,
+/obj/docking_port/mobile/voidcrew/grey_pill{
+	dir = 8
+	},
+/obj/machinery/door/airlock/external/glass{
+	name = "docking airlock"
+	},
+/turf/template_noop,
+/area/template_noop)
+"xol" = (
+/turf/template_noop,
+/area/template_noop)
+"ydW" = (
+/obj/structure/fans/tiny,
+/obj/modular_map_connector,
+/obj/machinery/door/airlock/external/glass{
+	name = "NOT docking airlock"
+	},
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+ydW
+"}
+(2,1,1) = {"
+xol
+"}
+(3,1,1) = {"
+xol
+"}
+(4,1,1) = {"
+xol
+"}
+(5,1,1) = {"
+xol
+"}
+(6,1,1) = {"
+xol
+"}
+(7,1,1) = {"
+dvF
+"}

@@ -1,0 +1,115 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"abG" = (
+/obj/machinery/computer/mission_board{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"blu" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_y = -7;
+	pixel_x = -4
+	},
+/obj/machinery/recharger{
+	pixel_x = -6
+	},
+/obj/item/gun/energy/laser,
+/obj/item/gun/energy/laser,
+/obj/item/gun/energy/laser,
+/obj/item/melee/baton/security/loaded,
+/obj/item/stock_parts/power_store/cell/super,
+/turf/template_noop,
+/area/template_noop)
+"cix" = (
+/turf/template_noop,
+/area/template_noop)
+"faz" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"fRQ" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/medical/full{
+	pixel_y = -7;
+	pixel_x = 5
+	},
+/obj/item/storage/medkit/regular{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/cup/bottle/multiver{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/healthanalyzer,
+/turf/template_noop,
+/area/template_noop)
+"lns" = (
+/obj/machinery/computer/helm,
+/turf/template_noop,
+/area/template_noop)
+"mDX" = (
+/obj/structure/frame,
+/obj/machinery/light/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"pAp" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/template_noop,
+/area/template_noop)
+"qVy" = (
+/obj/machinery/mission_pad,
+/mob/living/basic/bot/medbot,
+/obj/item/pickaxe,
+/obj/machinery/light/directional/west,
+/turf/template_noop,
+/area/template_noop)
+"rHz" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"wKn" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+cix
+rHz
+cix
+cix
+faz
+"}
+(2,1,1) = {"
+rHz
+rHz
+abG
+qVy
+blu
+"}
+(3,1,1) = {"
+rHz
+lns
+wKn
+cix
+cix
+"}
+(4,1,1) = {"
+rHz
+rHz
+pAp
+mDX
+fRQ
+"}
+(5,1,1) = {"
+cix
+rHz
+cix
+cix
+cix
+"}

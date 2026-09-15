@@ -1,0 +1,44 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"gDX" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external/glass{
+	name = "NOT docking airlock"
+	},
+/turf/template_noop,
+/area/template_noop)
+"hDP" = (
+/turf/template_noop,
+/area/template_noop)
+"pPL" = (
+/obj/structure/fans/tiny,
+/obj/modular_map_connector,
+/obj/docking_port/mobile/voidcrew/grey_pill{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external/glass{
+	name = "docking airlock"
+	},
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+pPL
+"}
+(2,1,1) = {"
+hDP
+"}
+(3,1,1) = {"
+hDP
+"}
+(4,1,1) = {"
+hDP
+"}
+(5,1,1) = {"
+hDP
+"}
+(6,1,1) = {"
+hDP
+"}
+(7,1,1) = {"
+gDX
+"}

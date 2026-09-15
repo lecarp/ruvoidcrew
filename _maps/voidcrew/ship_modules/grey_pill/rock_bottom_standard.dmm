@@ -1,0 +1,85 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"dos" = (
+/turf/template_noop,
+/area/template_noop)
+"dFB" = (
+/obj/structure/table/reinforced,
+/obj/item/knife/combat/survival,
+/turf/template_noop,
+/area/template_noop)
+"dFU" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"hjf" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"hsz" = (
+/obj/machinery/light/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"iMN" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/ointment,
+/turf/template_noop,
+/area/template_noop)
+"pEr" = (
+/obj/machinery/computer/mission_board{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"quR" = (
+/obj/machinery/computer/helm,
+/turf/template_noop,
+/area/template_noop)
+"tmi" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"xpF" = (
+/obj/machinery/mission_pad,
+/obj/item/pickaxe/improvised,
+/obj/machinery/light/directional/west,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+dos
+dFU
+dos
+dos
+tmi
+"}
+(2,1,1) = {"
+dFU
+dFU
+pEr
+xpF
+dFB
+"}
+(3,1,1) = {"
+dFU
+quR
+hjf
+dos
+dos
+"}
+(4,1,1) = {"
+dFU
+dFU
+dos
+hsz
+iMN
+"}
+(5,1,1) = {"
+dos
+dFU
+dos
+dos
+dos
+"}

@@ -1,0 +1,153 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"dov" = (
+/obj/machinery/computer/mission_board{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"hPd" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"hPx" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/medkit/regular{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/obj/item/storage/medkit/brute{
+	pixel_y = 1;
+	pixel_x = -6
+	},
+/obj/item/storage/medkit/fire{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/item/storage/medkit/o2{
+	pixel_y = -9;
+	pixel_x = -9
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_y = -8;
+	pixel_x = 6
+	},
+/obj/item/storage/medkit/advanced{
+	pixel_x = -9;
+	pixel_y = 8
+	},
+/obj/item/borg/sight/hud/med{
+	pixel_y = 6
+	},
+/obj/item/healthanalyzer/advanced{
+	pixel_y = -7
+	},
+/turf/template_noop,
+/area/template_noop)
+"iTP" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_y = -7;
+	pixel_x = -4
+	},
+/obj/machinery/recharger{
+	pixel_x = -6
+	},
+/obj/item/gun/energy/laser,
+/obj/item/gun/energy/laser,
+/obj/item/gun/energy/laser,
+/obj/item/melee/baton/security/loaded,
+/obj/item/stock_parts/power_store/cell/super,
+/turf/template_noop,
+/area/template_noop)
+"jBQ" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"qcM" = (
+/obj/machinery/mission_pad,
+/obj/item/storage/backpack/duffelbag/sec/surgery{
+	pixel_y = -4;
+	pixel_x = -6
+	},
+/mob/living/basic/bot/medbot/autopatrol{
+	icon_state = "medbot_adv_idle";
+	damage_coeff = list("brute" = 1, "burn" = 1, "toxin" = 1, "stamina" = 0, "oxygen" = 1);
+	death_message = "Noooooo";
+	health = 30;
+	heal_amount = 5;
+	heal_threshold = 0;
+	maxHealth = 30;
+	damage_type_healer = list("brute","burn","toxin","oxygen")
+	},
+/obj/item/pickaxe/silver,
+/obj/machinery/light/directional/west,
+/turf/template_noop,
+/area/template_noop)
+"rvk" = (
+/obj/machinery/computer/helm,
+/turf/template_noop,
+/area/template_noop)
+"rSq" = (
+/obj/structure/frame,
+/obj/machinery/light/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"sIS" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"udN" = (
+/turf/template_noop,
+/area/template_noop)
+"ujJ" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/obj/item/circuitboard/computer/voidcrew_cargo{
+	pixel_y = -6;
+	pixel_x = -6
+	},
+/obj/item/circuitboard/computer/ship_construction{
+	pixel_y = 8;
+	pixel_x = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+udN
+jBQ
+udN
+udN
+sIS
+"}
+(2,1,1) = {"
+jBQ
+jBQ
+dov
+qcM
+iTP
+"}
+(3,1,1) = {"
+jBQ
+rvk
+hPd
+udN
+udN
+"}
+(4,1,1) = {"
+jBQ
+jBQ
+ujJ
+rSq
+hPx
+"}
+(5,1,1) = {"
+udN
+jBQ
+udN
+udN
+udN
+"}
