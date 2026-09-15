@@ -1,0 +1,781 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aqa" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/voidcrew/grey_pill)
+"aMm" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/voidcrew/grey_pill)
+"cvA" = (
+/turf/closed/wall/mineral/titanium{
+	icon_state = "shuttle_wall-2"
+	},
+/area/shuttle/voidcrew/grey_pill)
+"cAc" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/voidcrew/grey_pill)
+"cAN" = (
+/turf/closed/wall/mineral/titanium{
+	icon_state = "shuttle_wall-5-d"
+	},
+/area/shuttle/voidcrew/grey_pill)
+"dNh" = (
+/turf/template_noop,
+/area/template_noop)
+"eDU" = (
+/obj/structure/cable,
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/voidcrew/grey_pill)
+"fab" = (
+/obj/machinery/computer/cryopod{
+	pixel_x = -1;
+	pixel_y = 8
+	},
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/voidcrew/grey_pill)
+"gNq" = (
+/obj/modular_map_root/ship_upgrade{
+	key = "special_2"
+	},
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/voidcrew/grey_pill)
+"imM" = (
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/voidcrew/grey_pill)
+"jQc" = (
+/obj/structure/cable,
+/obj/modular_map_root/ship_upgrade{
+	key = "docking_port_side"
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/grey_pill)
+"kev" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/grey_pill)
+"kwE" = (
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/grey_pill)
+"kNb" = (
+/obj/modular_map_root/ship_upgrade{
+	key = "special"
+	},
+/turf/template_noop,
+/area/shuttle/voidcrew/grey_pill)
+"lCm" = (
+/obj/modular_map_root/ship_upgrade{
+	key = "engineering"
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/grey_pill)
+"mjG" = (
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/shuttle/voidcrew/grey_pill)
+"nay" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/grey_pill)
+"qvO" = (
+/turf/closed/wall/mineral/titanium{
+	icon_state = "shuttle_wall-6-d"
+	},
+/area/shuttle/voidcrew/grey_pill)
+"qUl" = (
+/turf/closed/wall/mineral/titanium{
+	icon_state = "shuttle_wall-10-d"
+	},
+/area/shuttle/voidcrew/grey_pill)
+"rfI" = (
+/obj/modular_map_root/ship_upgrade{
+	key = "bridge"
+	},
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/voidcrew/grey_pill)
+"shX" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/voidcrew/grey_pill)
+"tfp" = (
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/voidcrew/grey_pill)
+"tkw" = (
+/obj/machinery/firealarm/directional/west{
+	pixel_y = -6
+	},
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/light/directional/west,
+/turf/open/floor/mineral/titanium/tiled,
+/area/shuttle/voidcrew/grey_pill)
+"wiH" = (
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/voidcrew/grey_pill)
+"xvC" = (
+/turf/closed/wall/mineral/titanium{
+	icon_state = "shuttle_wall-9-d"
+	},
+/area/shuttle/voidcrew/grey_pill)
+
+(1,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(2,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(3,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(4,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(5,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(6,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(7,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(8,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+qvO
+fab
+jQc
+cvA
+cAN
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(9,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+kwE
+aMm
+aMm
+rfI
+tkw
+cAc
+tfp
+kwE
+kwE
+kwE
+lCm
+aMm
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(10,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+kwE
+kwE
+wiH
+wiH
+imM
+tfp
+cAc
+mjG
+mjG
+mjG
+mjG
+kwE
+nay
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(11,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+kwE
+cAc
+aqa
+aqa
+eDU
+cAc
+cAc
+mjG
+mjG
+mjG
+mjG
+kwE
+nay
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(12,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+kwE
+kwE
+wiH
+wiH
+imM
+tfp
+cAc
+mjG
+mjG
+mjG
+mjG
+kwE
+nay
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(13,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+kwE
+aMm
+aMm
+aMm
+gNq
+cAc
+shX
+kwE
+kwE
+kwE
+kwE
+aMm
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(14,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+qUl
+kNb
+kev
+cvA
+xvC
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(15,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(16,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(17,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(18,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(19,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(20,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
+(21,1,1) = {"
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+dNh
+"}
