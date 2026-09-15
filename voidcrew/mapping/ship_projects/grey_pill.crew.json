@@ -1,0 +1,52 @@
+{
+  "Rosters": {
+    "ship": [
+      {
+        "ID": "job_1",
+        "Name": "Captain",
+        "Outfit": "/datum/outfit/job/captain",
+        "BaseOutfit": "",
+        "Category": "Command",
+        "Slots": 1,
+        "Officer": true,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      },
+      {
+        "ID": "job_2",
+        "Name": "Fodder",
+        "Outfit": "/datum/outfit/job/workshop_grey_pill_job_2",
+        "BaseOutfit": "/datum/outfit/job/assistant",
+        "Category": "Assistant",
+        "Slots": 4,
+        "Officer": false,
+        "Equipment": {
+          "gloves": "/obj/item/clothing/gloves/color/black",
+          "head": "/obj/item/clothing/head/beanie/black",
+          "l_pocket": "/obj/item/knife/combat/survival",
+          "r_pocket": "/obj/item/flashlight/seclite"
+        },
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      },
+      {
+        "ID": "job_3",
+        "Name": "Engineer",
+        "Outfit": "/datum/outfit/job/workshop_grey_pill_job_3",
+        "BaseOutfit": "/datum/outfit/job/engineer",
+        "Category": "Engineering",
+        "Slots": 3,
+        "Officer": false,
+        "Equipment": {
+          "r_pocket": "/obj/item/flashlight/seclite"
+        },
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ]
+  }
+}
