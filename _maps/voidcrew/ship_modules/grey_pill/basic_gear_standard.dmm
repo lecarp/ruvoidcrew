@@ -1,0 +1,114 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aRu" = (
+/obj/machinery/computer/helm,
+/turf/template_noop,
+/area/template_noop)
+"isQ" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"lUY" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"mYs" = (
+/obj/machinery/computer/mission_board{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"oTr" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"rdh" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_y = -7;
+	pixel_x = -4
+	},
+/obj/machinery/recharger{
+	pixel_x = -6
+	},
+/obj/item/melee/baton/security/cattleprod,
+/obj/item/gun/energy/laser/retro,
+/obj/item/gun/energy/laser/retro,
+/obj/item/stock_parts/power_store/cell/super/empty,
+/turf/template_noop,
+/area/template_noop)
+"tbi" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/template_noop,
+/area/template_noop)
+"uGv" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/medical/full{
+	pixel_y = -7;
+	pixel_x = 5
+	},
+/obj/item/storage/medkit/regular{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/cup/bottle/multiver{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/healthanalyzer,
+/turf/template_noop,
+/area/template_noop)
+"vrQ" = (
+/obj/structure/frame,
+/obj/machinery/light/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"vSO" = (
+/obj/machinery/mission_pad,
+/mob/living/basic/bot/medbot,
+/obj/item/pickaxe,
+/obj/machinery/light/directional/west,
+/turf/template_noop,
+/area/template_noop)
+"yeL" = (
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+yeL
+isQ
+yeL
+yeL
+oTr
+"}
+(2,1,1) = {"
+isQ
+isQ
+mYs
+vSO
+rdh
+"}
+(3,1,1) = {"
+isQ
+aRu
+lUY
+yeL
+yeL
+"}
+(4,1,1) = {"
+isQ
+isQ
+tbi
+vrQ
+uGv
+"}
+(5,1,1) = {"
+yeL
+isQ
+yeL
+yeL
+yeL
+"}

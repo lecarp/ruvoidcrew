@@ -1,0 +1,149 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"drl" = (
+/obj/structure/cable,
+/obj/item/storage/belt/utility/full/engi,
+/obj/item/storage/belt/utility/full/engi,
+/obj/structure/closet/secure_closet/engineering_personal,
+/obj/item/clothing/glasses/meson/gar,
+/obj/item/borg/sight/meson,
+/turf/template_noop,
+/area/template_noop)
+"dym" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/template_noop)
+"hqd" = (
+/obj/machinery/power/terminal,
+/obj/machinery/power/port_gen/pacman/super,
+/obj/item/stack/sheet/mineral/uranium/half,
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/west{
+	pixel_y = 5
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/west{
+	pixel_y = -7;
+	pixel_x = -24
+	},
+/turf/template_noop,
+/area/template_noop)
+"hFy" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"kjS" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"kMV" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/obj/machinery/light/directional/west,
+/turf/template_noop,
+/area/template_noop)
+"lAC" = (
+/turf/closed/wall/mineral/titanium,
+/area/template_noop)
+"lPe" = (
+/turf/template_noop,
+/area/template_noop)
+"mjb" = (
+/turf/open/floor/mineral/titanium/tiled,
+/area/template_noop)
+"oAQ" = (
+/obj/structure/cable,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"pbA" = (
+/obj/machinery/suit_storage_unit/engine,
+/turf/template_noop,
+/area/template_noop)
+"sum" = (
+/obj/modular_map_connector,
+/turf/closed/wall/mineral/titanium,
+/area/template_noop)
+"sRr" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/tiled,
+/area/template_noop)
+"tez" = (
+/obj/structure/cable,
+/obj/structure/closet/secure_closet/engineering_electrical,
+/obj/item/storage/belt/utility/full/engi,
+/obj/item/storage/belt/utility/full/engi,
+/turf/template_noop,
+/area/template_noop)
+"tpT" = (
+/obj/structure/cable,
+/obj/machinery/suit_storage_unit/ert/engineer,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/template_noop)
+"wcJ" = (
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen/red,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/effect/spawner/random/structure/closet_empty,
+/obj/item/extinguisher,
+/obj/item/extinguisher/mini,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/emergency_oxygen/engi/empty,
+/obj/item/tank/internals/emergency_oxygen/engi/empty,
+/turf/open/floor/mineral/titanium/tiled,
+/area/template_noop)
+"wZP" = (
+/obj/structure/cable,
+/obj/machinery/autolathe/hacked,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/machinery/light/directional/east,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+pbA
+lAC
+lAC
+hFy
+sum
+"}
+(2,1,1) = {"
+mjb
+hqd
+kMV
+tez
+tpT
+"}
+(3,1,1) = {"
+mjb
+kjS
+lPe
+lPe
+dym
+"}
+(4,1,1) = {"
+sRr
+oAQ
+wZP
+drl
+tpT
+"}
+(5,1,1) = {"
+wcJ
+lAC
+lAC
+hFy
+lAC
+"}

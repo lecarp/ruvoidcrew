@@ -1,0 +1,134 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"adk" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/template_noop,
+/area/template_noop)
+"esA" = (
+/obj/structure/frame,
+/obj/machinery/light/directional/east,
+/turf/template_noop,
+/area/template_noop)
+"eIU" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/medkit/regular{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/obj/item/storage/medkit/brute{
+	pixel_y = 1;
+	pixel_x = -6
+	},
+/obj/item/storage/medkit/fire{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/item/storage/medkit/o2{
+	pixel_y = -9;
+	pixel_x = -9
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_y = -8;
+	pixel_x = 6
+	},
+/obj/item/storage/medkit/advanced{
+	pixel_x = -9;
+	pixel_y = 8
+	},
+/obj/item/borg/sight/hud/med{
+	pixel_y = 6
+	},
+/obj/item/healthanalyzer/advanced{
+	pixel_y = -7
+	},
+/turf/template_noop,
+/area/template_noop)
+"fpk" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"kDZ" = (
+/obj/machinery/computer/helm,
+/turf/template_noop,
+/area/template_noop)
+"nZL" = (
+/obj/machinery/mission_pad,
+/mob/living/basic/bot/medbot,
+/obj/item/storage/backpack/duffelbag/sec/surgery{
+	pixel_y = -4;
+	pixel_x = -6
+	},
+/obj/item/pickaxe,
+/obj/machinery/light/directional/west,
+/turf/template_noop,
+/area/template_noop)
+"qtP" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"qNL" = (
+/obj/machinery/computer/mission_board{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"rFK" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_y = -7;
+	pixel_x = -4
+	},
+/obj/machinery/recharger{
+	pixel_x = -6
+	},
+/obj/item/melee/baton/security/cattleprod,
+/obj/item/gun/energy/laser/retro,
+/obj/item/gun/energy/laser/retro,
+/turf/template_noop,
+/area/template_noop)
+"trg" = (
+/turf/template_noop,
+/area/template_noop)
+"wyt" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+trg
+fpk
+trg
+trg
+wyt
+"}
+(2,1,1) = {"
+fpk
+fpk
+qNL
+nZL
+rFK
+"}
+(3,1,1) = {"
+fpk
+kDZ
+qtP
+trg
+trg
+"}
+(4,1,1) = {"
+fpk
+fpk
+adk
+esA
+eIU
+"}
+(5,1,1) = {"
+trg
+fpk
+trg
+trg
+trg
+"}

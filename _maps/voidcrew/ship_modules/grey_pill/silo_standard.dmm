@@ -1,0 +1,15 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bNN" = (
+/obj/modular_map_connector,
+/obj/structure/fans/tiny,
+/obj/machinery/door/window{
+	dir = 8
+	},
+/obj/machinery/ore_silo,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/plating,
+/area/template_noop)
+
+(1,1,1) = {"
+bNN
+"}
