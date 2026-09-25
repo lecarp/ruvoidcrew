@@ -11,7 +11,6 @@
 /turf/template_noop,
 /area/template_noop)
 "eIU" = (
-/obj/structure/table/reinforced,
 /obj/item/storage/medkit/regular{
 	pixel_y = 9;
 	pixel_x = 6
@@ -42,6 +41,7 @@
 /obj/item/healthanalyzer/advanced{
 	pixel_y = -7
 	},
+/obj/structure/table/optable,
 /turf/template_noop,
 /area/template_noop)
 "fpk" = (
@@ -63,6 +63,9 @@
 /obj/machinery/light/directional/west,
 /obj/item/pickaxe/mini,
 /obj/item/pickaxe/mini,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
 /turf/template_noop,
 /area/template_noop)
 "qtP" = (

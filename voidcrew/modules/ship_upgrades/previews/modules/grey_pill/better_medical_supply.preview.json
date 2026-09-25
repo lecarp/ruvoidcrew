@@ -1,0 +1,26 @@
+{
+ "hulls": {},
+ "modules": {
+  "grey_pill/better_medical_supply.dmm": {
+   "connector": [
+    1,
+    1
+   ],
+   "height": 5,
+   "themes": {
+    "standard": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 5,
+     "png": "grey_pill_better_medical_supply_standard.png",
+     "src_md5": "78a6188894d952ff3195433968b642bf",
+     "width": 5
+    }
+   },
+   "width": 5
+  }
+ },
+ "tile_px": 32
+}

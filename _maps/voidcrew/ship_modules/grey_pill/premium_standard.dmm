@@ -12,7 +12,6 @@
 /turf/template_noop,
 /area/template_noop)
 "hPx" = (
-/obj/structure/table/reinforced,
 /obj/item/storage/medkit/regular{
 	pixel_y = 9;
 	pixel_x = 6
@@ -43,6 +42,7 @@
 /obj/item/healthanalyzer/advanced{
 	pixel_y = -7
 	},
+/obj/structure/table/optable,
 /turf/template_noop,
 /area/template_noop)
 "iTP" = (
@@ -85,6 +85,10 @@
 /obj/machinery/light/directional/west,
 /obj/item/pickaxe/mini,
 /obj/item/pickaxe/mini,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/t_scanner/adv_mining_scanner,
 /turf/template_noop,
 /area/template_noop)
 "rvk" = (

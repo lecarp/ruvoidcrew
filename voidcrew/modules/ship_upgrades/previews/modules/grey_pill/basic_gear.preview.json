@@ -1,0 +1,26 @@
+{
+ "hulls": {},
+ "modules": {
+  "grey_pill/basic_gear.dmm": {
+   "connector": [
+    1,
+    1
+   ],
+   "height": 5,
+   "themes": {
+    "standard": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 5,
+     "png": "grey_pill_basic_gear_standard.png",
+     "src_md5": "447399e1e00d36d63c231da190a938f6",
+     "width": 5
+    }
+   },
+   "width": 5
+  }
+ },
+ "tile_px": 32
+}

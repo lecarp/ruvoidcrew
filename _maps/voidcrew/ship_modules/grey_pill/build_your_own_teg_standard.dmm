@@ -1,24 +1,27 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "cVQ" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer,
-/turf/template_noop,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/template_noop)
+"dPW" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "eWh" = (
 /obj/modular_map_connector,
 /obj/machinery/portable_atmospherics/canister/plasma,
-/turf/open/floor/mineral/titanium/tiled/yellow,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "fzI" = (
 /obj/machinery/pipedispenser,
-/turf/open/floor/mineral/titanium/tiled/yellow,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "fDu" = (
 /obj/machinery/atmospherics/components/binary/circulator,
-/turf/template_noop,
-/area/template_noop)
-"gJX" = (
-/obj/effect/spawner/random/trash/mess,
-/turf/template_noop,
+/turf/open/floor/mineral/titanium/tiled/yellow,
 /area/template_noop)
 "huz" = (
 /obj/item/storage/belt/utility/full/engi,
@@ -26,7 +29,8 @@
 /area/template_noop)
 "izc" = (
 /obj/machinery/atmospherics/components/binary/circulator/cold,
-/turf/open/floor/mineral/titanium/tiled/yellow,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "iCC" = (
 /obj/machinery/airalarm/directional/west{
@@ -38,7 +42,7 @@
 	},
 /obj/machinery/light/directional/west,
 /obj/effect/spawner/random/trash/mess,
-/turf/template_noop,
+/turf/open/floor/mineral/titanium/tiled/yellow,
 /area/template_noop)
 "jKI" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -52,14 +56,15 @@
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas,
-/obj/effect/spawner/random/structure/closet_empty,
 /obj/item/extinguisher,
 /obj/item/extinguisher/mini,
 /obj/item/tank/internals/oxygen/yellow,
 /obj/item/tank/internals/emergency_oxygen/engi/empty,
 /obj/item/tank/internals/emergency_oxygen/engi/empty,
 /obj/effect/spawner/random/trash/mess,
-/turf/open/floor/mineral/titanium/tiled/yellow,
+/obj/item/mining_scanner,
+/obj/structure/closet,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "nct" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
@@ -69,10 +74,11 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/machinery/light/directional/east,
 /obj/machinery/power/thermoelectric_generator,
-/turf/template_noop,
+/turf/open/floor/mineral/titanium/tiled/yellow,
 /area/template_noop)
-"pzq" = (
-/turf/template_noop,
+"pBD" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "rrG" = (
 /obj/effect/spawner/random/trash/mess,
@@ -80,13 +86,14 @@
 /area/template_noop)
 "ryG" = (
 /obj/machinery/atmospherics/components/unary/thermomachine,
-/turf/open/floor/mineral/titanium/tiled/yellow,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "syy" = (
 /obj/machinery/autolathe/hacked,
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/iron/fifty,
-/turf/open/floor/mineral/titanium/tiled/yellow,
+/turf/open/floor/mineral/titanium/tiled,
 /area/template_noop)
 "vxc" = (
 /turf/open/floor/mineral/titanium/tiled/yellow,
@@ -96,34 +103,34 @@
 syy
 jKI
 izc
-vxc
+pBD
 eWh
 "}
 (2,1,1) = {"
 nct
 iCC
 cVQ
-pzq
+vxc
 rrG
 "}
 (3,1,1) = {"
 huz
-pzq
-gJX
-pzq
+vxc
+rrG
+vxc
 vxc
 "}
 (4,1,1) = {"
 vxc
 oxi
-gJX
+rrG
 fDu
 vxc
 "}
 (5,1,1) = {"
 mfS
 jKI
-nct
+dPW
 fzI
 ryG
 "}

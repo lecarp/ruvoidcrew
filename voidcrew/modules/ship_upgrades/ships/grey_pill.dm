@@ -47,7 +47,7 @@
 	for_theme = list("standard")
 	map_file = "grey_pill/orm.dmm"
 	is_default = FALSE
-	desc = "Ore redemption machine in place of a wall"
+	desc = "Ore redemption machine in place of a wall\n\nStill gives points even without silo"
 
 /datum/ship_upgrade_module/grey_pill_better_weapons
 	part_cost = list(PART_CLASS_COMBAT = 2, PART_CLASS_SCIENCE = 1)
@@ -72,7 +72,7 @@
 	desc = "Surgery kit and all types of medkits that you can commonly find"
 
 /datum/ship_upgrade_module/grey_pill_premium
-	part_cost = list(PART_CLASS_COMBAT = 2, PART_CLASS_SCIENCE = 2, PART_CLASS_TRADE = 2)
+	part_cost = list(PART_CLASS_COMBAT = 2, PART_CLASS_SCIENCE = 2, PART_CLASS_TRADE = 3)
 	id = "premium"
 	name = "Premium"
 	slot = "bridge"
@@ -101,6 +101,7 @@
 	for_theme = list("standard")
 	map_file = "grey_pill/baseline_engineering.dmm"
 	is_default = TRUE
+	desc = "You realy should mine for uranium\n\nI recomend making generator run at 90kw while SMES giving 80kw (add more for depending on apc consumption)"
 
 /datum/ship_upgrade_module/grey_pill_special_2_basic
 	id = "special_2_basic"
@@ -110,7 +111,7 @@
 	for_theme = list("standard")
 	map_file = "grey_pill/eva_suit_holder.dmm"
 	is_default = TRUE
-	desc = "Suit storage with EVA inside of it\n\nThats it"
+	desc = "Suit storage with voidsuit (EVA suit)\n\nThats it"
 
 /datum/ship_upgrade_module/grey_pill_mining_closet
 	part_cost = list(PART_CLASS_MISC = 2)
@@ -121,7 +122,7 @@
 	for_theme = list("standard")
 	map_file = "grey_pill/mining_closet.dmm"
 	is_default = FALSE
-	desc = "Replaces suit storage with full mining closet"
+	desc = "Replaces suit storage with full mining closet, duh\n\nBetter to get silo with this one since you alredy gonna go for mining tech anyway for vendor"
 
 /datum/ship_upgrade_module/grey_pill_mining_vendor
 	part_cost = list(PART_CLASS_TRADE = 2)
@@ -132,7 +133,7 @@
 	for_theme = list("standard")
 	map_file = "grey_pill/mining_vendor.dmm"
 	is_default = FALSE
-	desc = "Replaces EVA suit storage with a vendor\n\nWorks well with ORM upgrade"
+	desc = "Mining vendor unstead of suit storage\n\nI recomend getting ORM with this one"
 
 /datum/ship_upgrade_module/grey_pill_build_your_own_teg
 	part_cost = list(PART_CLASS_TRADE = 2, PART_CLASS_MISC = 4)
@@ -143,4 +144,4 @@
 	for_theme = list("standard")
 	map_file = "grey_pill/build_your_own_teg.dmm"
 	is_default = FALSE
-	desc = "Teg but its lego\n\nGood luck setting this up cause otherwise this hull wont move at all\nI recomend turning APC while making it, otherwise you can get stuck"
+	desc = "TEG but its now a lego set\n\nI recomend turning APC off while making it, otherwise you wont be able to turn of thermomachines, pumps and teg control panel\n\nOh and this hull is NOT moving without a teg so get to work"

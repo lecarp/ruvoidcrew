@@ -1,0 +1,26 @@
+{
+ "hulls": {},
+ "modules": {
+  "grey_pill/mining_vendor.dmm": {
+   "connector": [
+    1,
+    1
+   ],
+   "height": 1,
+   "themes": {
+    "standard": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 1,
+     "png": "grey_pill_mining_vendor_standard.png",
+     "src_md5": "a79742df57c0bc85ca9c5fb77aab6ca2",
+     "width": 1
+    }
+   },
+   "width": 1
+  }
+ },
+ "tile_px": 32
+}

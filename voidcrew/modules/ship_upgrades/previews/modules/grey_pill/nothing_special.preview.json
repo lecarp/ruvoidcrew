@@ -1,0 +1,26 @@
+{
+ "hulls": {},
+ "modules": {
+  "grey_pill/nothing_special.dmm": {
+   "connector": [
+    1,
+    1
+   ],
+   "height": 1,
+   "themes": {
+    "standard": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 1,
+     "png": "grey_pill_nothing_special_standard.png",
+     "src_md5": "e2d3ecd112a14b3c5f5fb5f0bc7f35be",
+     "width": 1
+    }
+   },
+   "width": 1
+  }
+ },
+ "tile_px": 32
+}

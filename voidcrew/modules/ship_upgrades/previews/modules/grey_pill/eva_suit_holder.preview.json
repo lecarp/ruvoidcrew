@@ -1,0 +1,26 @@
+{
+ "hulls": {},
+ "modules": {
+  "grey_pill/eva_suit_holder.dmm": {
+   "connector": [
+    1,
+    1
+   ],
+   "height": 1,
+   "themes": {
+    "standard": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 1,
+     "png": "grey_pill_eva_suit_holder_standard.png",
+     "src_md5": "880bf14dd4957105a6aa6cd9c0d0cd94",
+     "width": 1
+    }
+   },
+   "width": 1
+  }
+ },
+ "tile_px": 32
+}

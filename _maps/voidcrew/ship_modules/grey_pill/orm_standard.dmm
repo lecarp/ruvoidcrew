@@ -1,7 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "cXY" = (
 /obj/modular_map_connector,
-/obj/machinery/mineral/ore_redemption,
+/obj/machinery/mineral/ore_redemption{
+	requires_silo = 0
+	},
 /obj/structure/fans/tiny,
 /obj/machinery/door/window{
 	dir = 8

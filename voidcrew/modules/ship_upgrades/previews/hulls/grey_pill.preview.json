@@ -1,0 +1,30 @@
+{
+ "hulls": {
+  "grey_pill": {
+   "height": 13,
+   "png": "ship_grey_pill.png",
+   "slots": {
+    "bridge": [
+     2,
+     9
+    ],
+    "engineering": [
+     2,
+     2
+    ],
+    "special": [
+     7,
+     8
+    ],
+    "special_2": [
+     6,
+     8
+    ]
+   },
+   "src_md5": "250170485832cd755f46ca017ab4599a",
+   "width": 7
+  }
+ },
+ "modules": {},
+ "tile_px": 32
+}

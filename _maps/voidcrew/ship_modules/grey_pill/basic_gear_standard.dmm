@@ -45,7 +45,6 @@
 /turf/template_noop,
 /area/template_noop)
 "uGv" = (
-/obj/structure/table/reinforced,
 /obj/item/storage/toolbox/medical/full{
 	pixel_y = -7;
 	pixel_x = 5
@@ -59,6 +58,10 @@
 	pixel_y = 4
 	},
 /obj/item/healthanalyzer,
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/mesh,
+/obj/structure/table/optable,
 /turf/template_noop,
 /area/template_noop)
 "vrQ" = (
@@ -73,6 +76,9 @@
 /obj/machinery/light/directional/west,
 /obj/item/pickaxe/mini,
 /obj/item/pickaxe/mini,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
 /turf/template_noop,
 /area/template_noop)
 "yeL" = (

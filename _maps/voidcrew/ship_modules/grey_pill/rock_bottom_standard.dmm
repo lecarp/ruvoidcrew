@@ -4,7 +4,23 @@
 /area/template_noop)
 "dFB" = (
 /obj/structure/table/reinforced,
-/obj/item/knife/combat/survival,
+/obj/item/knife/combat/survival{
+	pixel_y = 4;
+	pixel_x = -5
+	},
+/obj/item/stack/medical/ointment{
+	pixel_y = 3;
+	pixel_x = 11
+	},
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/suture{
+	pixel_y = -5;
+	pixel_x = 4
+	},
+/obj/item/stack/medical/ointment{
+	pixel_y = 7;
+	pixel_x = -7
+	},
 /turf/template_noop,
 /area/template_noop)
 "dFU" = (
@@ -22,9 +38,8 @@
 /turf/template_noop,
 /area/template_noop)
 "iMN" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/medical/suture,
-/obj/item/stack/medical/ointment,
+/obj/item/bedsheet/black,
+/obj/structure/bed/maint,
 /turf/template_noop,
 /area/template_noop)
 "pEr" = (
@@ -47,6 +62,8 @@
 /obj/machinery/light/directional/west,
 /obj/item/pickaxe/improvised,
 /obj/item/pickaxe/improvised,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
 /turf/template_noop,
 /area/template_noop)
 

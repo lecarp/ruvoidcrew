@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "cMk" = (
 /obj/modular_map_connector,
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/void_old,
 /turf/template_noop,
 /area/template_noop)
 

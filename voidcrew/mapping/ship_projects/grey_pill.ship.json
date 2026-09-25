@@ -1,7 +1,7 @@
 {
   "Version": 1,
   "ID": "grey_pill",
-  "Description": "Small ship with great upgrades at (relatively) low cost. Works best in solo or small crews",
+  "Description": "Small ship that works great in solo or small crews, has upgrades that are (when compared to other ships) cheaper. Moves fast as fuck even with t1 parts in engines due to low weight",
   "Hull": {
     "Type": "/datum/map_template/shuttle/voidcrew/grey_pill",
     "Name": "Grey Pill",
@@ -67,7 +67,7 @@
         "Name": "ORM",
         "Slot": "special",
         "File": "grey_pill/orm.dmm",
-        "Description": "Ore redemption machine in place of a wall",
+        "Description": "Ore redemption machine in place of a wall\n\nStill gives points even without silo",
         "Themes": [
           "standard"
         ],
@@ -122,6 +122,7 @@
         "Name": "Baseline Engineering",
         "Slot": "engineering",
         "File": "grey_pill/baseline_engineering.dmm",
+        "Description": "You realy should mine for uranium\n\nI recomend making generator run at 90kw while SMES giving 80kw (add more for depending on apc consumption)",
         "Themes": [
           "standard"
         ],
@@ -132,7 +133,7 @@
         "Name": "EVA suit holder",
         "Slot": "special_2",
         "File": "grey_pill/eva_suit_holder.dmm",
-        "Description": "Suit storage with EVA inside of it\n\nThats it",
+        "Description": "Suit storage with voidsuit (EVA suit)\n\nThats it",
         "Themes": [
           "standard"
         ],
@@ -143,7 +144,7 @@
         "Name": "Mining closet",
         "Slot": "special_2",
         "File": "grey_pill/mining_closet.dmm",
-        "Description": "Replaces suit storage with full mining closet",
+        "Description": "Replaces suit storage with full mining closet, duh\n\nBetter to get silo with this one since you alredy gonna go for mining tech anyway for vendor",
         "Themes": [
           "standard"
         ],
@@ -154,7 +155,7 @@
         "Name": "Mining Vendor",
         "Slot": "special_2",
         "File": "grey_pill/mining_vendor.dmm",
-        "Description": "Replaces EVA suit storage with a vendor\n\nWorks well with ORM upgrade",
+        "Description": "Mining vendor unstead of suit storage\n\nI recomend getting ORM with this one",
         "Themes": [
           "standard"
         ],
@@ -165,7 +166,7 @@
         "Name": "\"Build Your Own Teg\"",
         "Slot": "engineering",
         "File": "grey_pill/build_your_own_teg.dmm",
-        "Description": "Teg but its lego\n\nGood luck setting this up cause otherwise this hull wont move at all\nI recomend turning APC while making it, otherwise you can get stuck",
+        "Description": "TEG but its now a lego set\n\nI recomend turning APC off while making it, otherwise you wont be able to turn of thermomachines, pumps and teg control panel\n\nOh and this hull is NOT moving without a teg so get to work",
         "Themes": [
           "standard"
         ],
@@ -205,7 +206,7 @@
     "module/premium": {
       "combat": 2,
       "science": 2,
-      "trade": 2
+      "trade": 3
     },
     "module/silo": {
       "misc": 2,
