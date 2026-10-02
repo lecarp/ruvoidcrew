@@ -329,7 +329,7 @@ export const TgFontTarget = new Juke.Target({
 });
 
 export const TguiTarget = new Juke.Target({
-  dependsOn: [BunTarget, BiomeInstallTarget],
+  dependsOn: [BunTarget],
   inputs: [
     'tgui/rspack.config.ts',
     'tgui/**/package.json',

@@ -235,6 +235,40 @@ GLOBAL_LIST_EMPTY(trader_outposts)
 				panel.outpost = src
 				panel.is_lobby = TRUE
 				lobby_panels += panel
+				// VOIDCREW EDIT START: OUTPOST_SHIP_HANGAR
+				// Spawn concourse hangar console in the lobby OUTSIDE the elevator, beside the entrance
+				var/turf/concourse_console_turf = null
+				var/max_alcove_y = 0
+				var/min_alcove_x = 9999
+				var/max_alcove_x = 0
+				for(var/turf/alcove_turf as anything in lobby_alcove_turfs)
+					max_alcove_y = max(max_alcove_y, alcove_turf.y)
+					min_alcove_x = min(min_alcove_x, alcove_turf.x)
+					max_alcove_x = max(max_alcove_x, alcove_turf.x)
+
+				var/list/candidates = list(
+					locate(min_alcove_x - 1, max_alcove_y + 1, panel.z),
+					locate(max_alcove_x + 1, max_alcove_y + 1, panel.z),
+					locate(min_alcove_x, max_alcove_y + 2, panel.z),
+					locate(max_alcove_x, max_alcove_y + 2, panel.z),
+					locate(min_alcove_x - 1, max_alcove_y + 2, panel.z),
+					locate(max_alcove_x + 1, max_alcove_y + 2, panel.z)
+				)
+				for(var/turf/candidate as anything in candidates)
+					if(candidate && !candidate.is_blocked_turf() && !(candidate in lobby_alcove_turfs))
+						concourse_console_turf = candidate
+						break
+
+				if(!concourse_console_turf)
+					concourse_console_turf = locate(panel.x, max_alcove_y + 1, panel.z)
+
+				if(concourse_console_turf)
+					var/obj/machinery/computer/outpost_ship_hangar/concourse_console = new(concourse_console_turf)
+					concourse_console.dir = SOUTH
+					concourse_console.outpost = src
+					concourse_console.is_concourse = TRUE
+					concourse_console.AddElement(/datum/element/outpost_property)
+				// VOIDCREW EDIT END: OUTPOST_SHIP_HANGAR
 		// Everything the template placed is outpost property, swept here so the
 		// bare tg types on the maps (door fans, seating, lockers) are covered
 		// without a subtype each. The door fans are load-bearing: the sanctuary

@@ -367,6 +367,20 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/status_display/outpost_sign/elevator,
 		log_mapping("OUTPOST BERTH: hangar template has no /obj/machinery/outpost_elevator.")
 		return FALSE
 
+	// VOIDCREW EDIT START: OUTPOST_SHIP_HANGAR
+	// Place the hangar console on the hangar deck right between the entrance airlocks
+	// (outside the elevator cabin, facing the landing pad).
+	var/turf/hangar_console_turf = locate(hangar_bottom_left.x + 31, hangar_bottom_left.y + 9, hangar_bottom_left.z)
+	if(!hangar_console_turf || hangar_console_turf.is_blocked_turf())
+		hangar_console_turf = locate(hangar_bottom_left.x + 33, hangar_bottom_left.y + 9, hangar_bottom_left.z)
+	if(hangar_console_turf)
+		var/obj/machinery/computer/outpost_ship_hangar/console = new(hangar_console_turf)
+		console.dir = NORTH
+		console.outpost = outpost
+		console.berth = src
+		console.AddElement(/datum/element/outpost_property)
+	// VOIDCREW EDIT END: OUTPOST_SHIP_HANGAR
+
 	dock = new /obj/docking_port/stationary(dock_turf)
 	dock.dir = NORTH
 	dock.name = "[outpost.name] Berth [berth_number]"
