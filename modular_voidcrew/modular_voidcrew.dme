@@ -4,4 +4,3 @@
 #include "features\discord_ooc\includes.dm"
 #include "features\character_db_backup\includes.dm"
 #include "features\hub_status\includes.dm"
-#include "features\outpost_elevator_access\includes.dm"

@@ -16,9 +16,6 @@ type Floor = {
   name: string;
   occupied: BooleanLike;
   your_ship: BooleanLike;
-  // VOIDCREW EDIT ADDITION BEGIN - OUTPOST_ELEVATOR_ACCESS
-  accessible?: BooleanLike;
-  // VOIDCREW EDIT ADDITION END - OUTPOST_ELEVATOR_ACCESS
 };
 
 type Data = {
@@ -48,9 +45,7 @@ export const OutpostElevator = (props) => {
             <Section fill scrollable title="Floors">
               {!!moving && <MovingDimmer />}
               <Stack vertical>
-                {floors.map((floor) => {
-                  // VOIDCREW EDIT CHANGE BEGIN - OUTPOST_ELEVATOR_ACCESS
-                  /* ORIGINAL
+                {floors.map((floor) => (
                   <Stack.Item key={floor.id}>
                     <Button
                       fluid
@@ -74,50 +69,7 @@ export const OutpostElevator = (props) => {
                       {`${floor.name}${floor.your_ship ? ' (your ship)' : ''}`}
                     </Button>
                   </Stack.Item>
-                  */
-                  const isAccessible =
-                    floor.accessible ?? (floor.id === 0 || floor.your_ship);
-                  const isCurrent = floor.id === current_floor;
-                  const isOccupied = !!floor.occupied;
-                  const isDisabled = !isOccupied || isCurrent || !isAccessible;
-
-                  let icon = 'circle';
-                  if (floor.your_ship) {
-                    icon = 'star';
-                  } else if (!isAccessible && floor.id !== 0) {
-                    icon = 'lock';
-                  }
-
-                  let tooltip: string | undefined;
-                  if (isCurrent) {
-                    tooltip = 'You are here.';
-                  } else if (!isOccupied) {
-                    tooltip = 'Nothing is docked at this berth.';
-                  } else if (!isAccessible) {
-                    tooltip = 'Access restricted: ship crew only.';
-                  }
-
-                  return (
-                    <Stack.Item key={floor.id}>
-                      <Button
-                        fluid
-                        ellipsis
-                        fontSize="14px"
-                        bold
-                        textAlign="left"
-                        icon={icon}
-                        color={floor.your_ship ? 'good' : 'default'}
-                        selected={isCurrent}
-                        disabled={isDisabled}
-                        tooltip={tooltip}
-                        onClick={() => act('goto', { id: floor.id })}
-                      >
-                        {`${floor.name}${floor.your_ship ? ' (your ship)' : ''}`}
-                      </Button>
-                    </Stack.Item>
-                  );
-                  // VOIDCREW EDIT CHANGE END - OUTPOST_ELEVATOR_ACCESS
-                })}
+                ))}
               </Stack>
             </Section>
           </Stack.Item>

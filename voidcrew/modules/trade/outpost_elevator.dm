@@ -105,12 +105,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/outpost_elevator, 32)
 			"name" = "Concourse: [outpost.name]",
 			"occupied" = length(outpost.lobby_alcove_turfs) > 0,
 			"your_ship" = FALSE,
-			// VOIDCREW EDIT ADDITION BEGIN - OUTPOST_ELEVATOR_ACCESS
-			"accessible" = TRUE,
-			// VOIDCREW EDIT ADDITION END - OUTPOST_ELEVATOR_ACCESS
 		))
-		// VOIDCREW EDIT CHANGE BEGIN - OUTPOST_ELEVATOR_ACCESS
-		/* ORIGINAL
 		for(var/i in 1 to OUTPOST_MAX_BERTHS)
 			// berths stays null on hosts that haven't berthed a ship yet
 			var/datum/outpost_berth/slot = LAZYACCESS(outpost.berths, i)
@@ -126,30 +121,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/outpost_elevator, 32)
 		var/obj/structure/overmap/dynamic/player_outpost/home = astype(outpost)
 		if(home?.freight_berth)
 			floors += list(list("id" = OUTPOST_MAX_BERTHS + 1, "name" = "Freight Receiving", "occupied" = TRUE, "your_ship" = FALSE))
-		*/
-		for(var/i in 1 to OUTPOST_MAX_BERTHS)
-			// berths stays null on hosts that haven't berthed a ship yet
-			var/datum/outpost_berth/slot = LAZYACCESS(outpost.berths, i)
-			var/is_yours = FALSE
-			if(slot?.ship?.ship_team && user?.mind?.ship_teams)
-				is_yours = (slot.ship.ship_team in user.mind.ship_teams)
-			floors += list(list(
-				"id" = i,
-				"name" = slot ? "Berth [i]: [slot.ship ? slot.ship.name : "reserved"]" : "Berth [i]: vacant",
-				"occupied" = !!slot,
-				"your_ship" = is_yours,
-				"accessible" = can_access_floor(i, user),
-			))
-		var/obj/structure/overmap/dynamic/player_outpost/home = astype(outpost)
-		if(home?.freight_berth)
-			floors += list(list(
-				"id" = OUTPOST_MAX_BERTHS + 1,
-				"name" = "Freight Receiving",
-				"occupied" = TRUE,
-				"your_ship" = FALSE,
-				"accessible" = can_access_floor(OUTPOST_MAX_BERTHS + 1, user),
-			))
-		// VOIDCREW EDIT CHANGE END - OUTPOST_ELEVATOR_ACCESS
 	data["floors"] = floors
 	return data
 
@@ -173,12 +144,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/outpost_elevator, 32)
 	if(!(get_turf(ui.user) in own_alcove))
 		balloon_alert(ui.user, "step into the elevator first!")
 		return TRUE
-	// VOIDCREW EDIT ADDITION BEGIN - OUTPOST_ELEVATOR_ACCESS
-	if(!can_access_floor(floor_id, ui.user))
-		balloon_alert(ui.user, "access denied: ship crew only!")
-		playsound(src, 'sound/machines/buzz/buzz-sigh.ogg', 50, TRUE)
-		return TRUE
-	// VOIDCREW EDIT ADDITION END - OUTPOST_ELEVATOR_ACCESS
 	moving = TRUE
 	playsound(src, 'sound/machines/chime.ogg', 50, TRUE)
 	move_timer = addtimer(CALLBACK(src, PROC_REF(complete_ride), floor_id), OUTPOST_ELEVATOR_TRAVEL_TIME, TIMER_STOPPABLE)
